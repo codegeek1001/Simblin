@@ -11,7 +11,7 @@
 from datetime import datetime
 from werkzeug import check_password_hash, generate_password_hash
 from flask import session
-from flaskext.sqlalchemy import BaseQuery
+from flask.ext.sqlalchemy import BaseQuery
 
 from simblin.helpers import normalize, convert_markup
 from simblin.extensions import db

@@ -8,7 +8,7 @@
     :copyright: (c) 2010 by Eugen Kiss.
     :license: BSD, see LICENSE for more details.
 """
-from flaskext.sqlalchemy import SQLAlchemy
+from flask.ext.sqlalchemy import SQLAlchemy
 
 __all__ = ['db']
 
